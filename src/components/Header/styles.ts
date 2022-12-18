@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -19,11 +19,11 @@ export const HeaderContainer = styled.header`
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
     }
-    a:hover {
+    &:hover {
       border-bottom: 3px solid ${(props => props.theme['green-500'])};
     }
     
-    a.active {
+    &.active {
       color: ${(props => props.theme['green-500'])};
     }
   }
